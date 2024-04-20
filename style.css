@@ -8,6 +8,19 @@
     src: url('fonts/UnifrakturMaguntia-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'DMSerifDisplay-Regular';
+    src: url('fonts/DMSerifDisplay-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.ttf');
+}
+
+
+
 html{
     height:100%;
     background: linear-gradient(217deg, rgba(105, 152, 158, 0.8), rgba(255,0,0,0) 70.71%),
@@ -30,27 +43,30 @@ footer {
     align-items: center;
     justify-content: center;
 width: 100%;
+flex-direction: column;
 }
 
 #hello {  font-family: 'UnifrakturMaguntia-Regular', serif; 
     display: flex;
-    align-items: center;
     justify-content: center;
     font-size:10em;
-    width: 150vw;
-    height: 100%;
-    flex-direction: column;
+    width: 100vw;
+  
+  
     color:white;
 
 }
 #subtitle { display: flex;
-    align-items: center;
     justify-content: center;
-    font-size:4em;
-    width: 150vw;
-    height: 100%;
+    width:70%;
+    font-size:1.5em;
+    margin-top: -5%;
+ 
     flex-direction: column;
     color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Poppins-Light', sans-serif; 
+    
 
 
 }
