@@ -21,13 +21,13 @@
 
 
 
-html{
+.colorful_back{
     height:100%;
     background: linear-gradient(217deg, rgba(105, 152, 158, 0.8), rgba(255,0,0,0) 70.71%),
     linear-gradient(127deg, rgba(228, 151, 241, 0.8), rgba(0,255,0,0) 70.71%),
     linear-gradient(336deg, rgba(230, 184, 218, 0.8), rgba(0,0,255,0) 70.71%);
- 
 } 
+.white_back {background: white;}
 footer {
     position: fixed; 
     bottom: 0;
@@ -71,4 +71,4 @@ flex-direction: column;
 /* posts */
 
 
-em { color: yellow; font-size: 2em; }
+.posts_text em { color: yellow; font-size: 2em; }
