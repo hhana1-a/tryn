@@ -71,4 +71,4 @@ flex-direction: column;
 /* posts */
 
 
-.posts_text em { color: yellow; font-size: 2em; }
+em { color: yellow; font-size: 2em; }
