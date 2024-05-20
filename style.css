@@ -71,4 +71,8 @@ flex-direction: column;
 /* posts */
 
 
-.posts_text em { color: yellow; font-size: 2em; }
+.posts_text em { font-size: 2em; font-style: normal;}
+
+.em_class_yellow {color: yellow;}
+.em_class_blue {color: light-blue;}
+.em_class_pink {color: pink;}
